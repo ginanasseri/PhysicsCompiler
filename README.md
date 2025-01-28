@@ -1,4 +1,4 @@
-# PhysicsWizard
+# PhysicsCompiler (The Physics Wizard)
 
 Author: Gina Nasseri
 
