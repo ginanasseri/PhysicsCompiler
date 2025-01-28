@@ -1,6 +1,7 @@
-# PhysicsCompiler (The Physics Wizard)
+# PhysicsCompiler
+### *The Physics Wizard – A Physics Algorithm Generator*
 
-Author: Gina Nasseri
+**Author:** Gina Nasseri
 
 ---
 ## A Physics Algorithm Generator
