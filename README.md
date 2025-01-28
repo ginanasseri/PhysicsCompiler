@@ -14,19 +14,24 @@ equation:
 data: {}
 ```
 
-### User Manual
-- Input values for specifying a physics/stats problem are detailed here. 
-- Sample problems are provided with input files provided in the demo directory along with input files with grammar, syntax errors, and insufficient data to demonstrate error output.  
+### User Manual (user\_manual.pdf)
+- Provides instructions on how to write input file and fill in each line to define your problem, choose equations, and specify parameter values/data.
+- Includes sample problems. Corresponding input files are available in the `demo/` directory, including cases with grammar/syntax errors and insufficient data to demonstrate error handling.
+
 
 ## Usage 
-1. Activate Virtual environment (must be using Linux/MacOS): `source venv/bin/activate`
-2. Use `make` to generate the `physwiz` executable. 
-3. See Physics Solution Generator User Manual for instructions on input format  
-4. Use `./physwiz your_problem.phys` to generate solution, replacing `your_problem.phys` with your input file. 
+1. Run `make` to generate the `physwiz` executable. 
+2. See User Manual for input format instructions. 
+3. Execute `./physwiz your_problem.phys`, replacing `your_problem.phys` with your input file.
 
-A Python script with the same name as your input file will be generated and executed, and the solution is printed to output, any requested graphical solutions are saved as images.
+A Python script, named after your input file, is generated and executed. The numerical solution is printed, and any requested graphical solutions are saved as images.
 
-**Note:** If using MacOS and Flex error encountered, it is recommended to use a Linux environment. A Vagrantfile is included in the repo which can be used (requires Vagrant and virtual machine software such as VirtualBox).
+### Requirements
+Python libraries:`scipy`, `numpy`, `pandas`, `matplotlib`
+
+**Note:** If using macOS and encountering Flex-related errors, it is recommended to use a Linux environment. A `Vagrantfile` is included in the repo for this purpose (requires Vagrant and a virtual machine host such as VirtualBox).
+
+---
 
 ## Directory Structure
 - demo/
@@ -45,4 +50,3 @@ A Python script with the same name as your input file will be generated and exec
   - `main.cpp`
   - `parser.cpp` *main control flow* 
   - `writer.cpp` *script generator*
-- venv/ - *Python environment*
