@@ -1,0 +1,4 @@
+subject: stats
+graph: true
+equation: 2
+data: {data_file.csv}

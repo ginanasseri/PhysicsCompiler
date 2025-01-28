@@ -1,0 +1,4 @@
+subject: mechanics
+graph: true
+equation: 2 
+data: {m = 290, A = 1.5, g = -3.71, rho = 0.02, H = 11.1e3}
