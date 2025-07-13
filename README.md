@@ -30,7 +30,7 @@ A Python script, named after your input file, is generated and executed. The num
 ### Requirements
 Python libraries:`scipy`, `numpy`, `pandas`, `matplotlib`
 
-**Note:** If using macOS and encountering Flex-related errors, it is recommended to use a Linux environment. A `Vagrantfile` is included in the repo for this purpose (requires Vagrant and a virtual machine host such as VirtualBox).
+**Note:** If encountereing flex-related errors, a Linux environment is recommended (e.g., Vagrant Ubuntu).
 
 ---
 
