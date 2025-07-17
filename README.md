@@ -19,9 +19,11 @@ data: {}
 - Provides instructions on how to write input file and fill in each line to define your problem, choose equations, and specify parameter values/data.
 - Includes sample problems. Corresponding input files are available in the `demo/` directory, including cases with grammar/syntax errors and insufficient data to demonstrate error handling.
 
+### System Requirements (Recommended)
+- Must have `flex` installed.
 
 ## Usage 
-1. Run `make` to generate the `physwiz` executable. 
+1. Run `make clean` then `make` to generate the `physwiz` executable. 
 2. See User Manual for input format instructions. 
 3. Execute `./physwiz your_problem.phys`, replacing `your_problem.phys` with your input file.
 
@@ -30,7 +32,8 @@ A Python script, named after your input file, is generated and executed. The num
 ### Requirements
 Python libraries:`scipy`, `numpy`, `pandas`, `matplotlib`
 
-**Note:** If encountereing flex-related errors, a Linux environment is recommended (e.g., Vagrant Ubuntu).
+**Note:** Developed in Linux environment. 
+If encountereing flex-related errors [`ld: library 'fl' not found`], a Linux environment is recommended (e.g., Vagrant Ubuntu).
 
 ---
 

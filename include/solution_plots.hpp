@@ -1,5 +1,5 @@
 #ifndef SOLUTION_PLOTS_HPP
-#define SOLUTIONS_PLOTS_HPP
+#define SOLUTION_PLOTS_HPP
 
 const char* generate_ff_plots = R"(
     # --------------------------------------------------
@@ -120,4 +120,4 @@ def generate_plots(t, y, v, a, y0):
     plt.savefig('/home/vagrant/mirror/plots/free_fall_plots_combined') # comment out or change to your own path name
 )";
 
-#endif // SOLUTION_PLOTS__HPP
+#endif // SOLUTION_PLOTS_HPP
